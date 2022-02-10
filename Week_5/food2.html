@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background-image: url(images/b3.jpg);
+        }
+        .items{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            
+                
+        }
+        .item{
+            width: 50px 50px;
+            border-radius: 2px;
+            margin:40px;
+        }
+            .btn{
+              color: rgb(241, 234, 234);
+              border: 2px solid black;
+             background: crimson;
+              cursor: pointer;
+              border-radius: 4px;
+              padding: 5px 30px;
+              display: block;
+            }
+            .item img:hover{
+                transform: scale(1.21);
+
+            }
+           .item  h4{
+               padding: 3px;
+               text-align:0 auto;
+
+            }
+            btn:active{
+               color: darksalmon;
+            }
+            .column{
+                border: none;
+            margin: 2px;
+            padding: 2px 2px;
+            background-color:rgb(178, 238, 144);
+            display: inline-block;
+            box-sizing: border-box;
+          width:32%;
+            }
+            p{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-style: normal;
+            }
+            @media screen and (max-width: 1000px){
+                .items{
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            @media screen and (max-width: 768px){
+                .items{
+                    grid-template-columns: repeat(1, 1fr);
+                }
+            }
+            .heading{
+                margin: 0 450px;
+
+            }
+         h1{
+             background-color: chartreuse;
+         }
+            
+            
+            
+    h2{
+        margin:0 500px;
+        display: inline-block;
+        font-size: 40px;
+    }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Foodie Place</h2>
+    <section class="items">
+        <div class="item">
+            <img src="images/f9.jpg" width="320px" height="300px">
+            <h4>Pizza</h4>
+            <p>$100</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f8.jpg" width="320px" height="300px">
+            <h4>Burger</h4>
+            <p>$50</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f10.jpg" width="320px" height="300px">
+            <h4>Momos</h4>
+            <p>$40</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f4.jpg" width="320px" height="300px">
+            <h4>Pasta</h4>
+            <p>$40</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f7.jpg" width="320px" height="300px">
+            <h4>Chicken tangri</h4>
+            <p>$190</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f2.png" width="320px" height="300px">
+            <h4>Chicken Biryani</h4>
+            <p>$90</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f6.jpg" width="320px" height="300px">
+            <h4>Indian Thali</h4>
+            <p>$150</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f5.jpg" width="320px" height="300px">
+            <h4>Pudim</h4>
+            <p>$80</p>
+            <button class="btn">Order now</button>
+        </div>
+        <div class="item">
+            <img src="images/f3.png" width="320px" height="300px">
+            <h4>Spring Rolls</h4>
+            <p>$90</p>
+            <button class="btn">Order now</button>
+            </div>
+           </div>
+
+           
+ 
+      
+</body>
+
+</html>
+
